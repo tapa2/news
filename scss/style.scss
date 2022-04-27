@@ -1,0 +1,58 @@
+/*
+* import of .scss styles ↓
+*/
+
+@import "zeroing.scss";
+@import "_header";
+@import "_topic";
+@import "_image";
+@import "_content";
+@import "_footer";
+ 
+
+//======================================
+
+/*
+* import of fonts ↓
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');// TODO: font-family: 'Bebas Neue';
+
+//=======================================
+
+/*
+* styles of main conteiner ↓
+*/
+
+.page{
+   width: 850px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper{
+   flex: 1 1 auto;
+}
+
+
+//=======================================
+
+/*
+* variebles
+*/
+
+
+//========================================
+
+/*
+* mutual styles  ↓
+*/
+
+.topic {
+   font-family: 'Bebas Neue';
+}
+
+
+//=======================================
+
